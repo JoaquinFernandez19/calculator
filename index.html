@@ -5,32 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
     <div class="container">
         <div class="container__displayScreen">
-            <Input class="container__displayInput" type="text" readonly></Input>
+            <p class="container__displayInput text"></p>
         </div>
         <div class="container__allButtons">
-            <div class="container__numButtons">
-                <button class="container__button num0">0</button>
-                <button class="container__button num1">1</button>
-                <button class="container__button num2">2</button>
-                <button class="container__button num3">3</button>
-                <button class="container__button num4">4</button>
-                <button class="container__button num5">5</button>
-                <button class="container__button num6">6</button>
-                <button class="container__button num7">7</button>
-                <button class="container__button num8">8</button>
-                <button class="container__button num9">9</button>
-            </div>
+           
             <div class="container__symbolButtons">
-                <button class="container__button add">+</button>
-                <button class="container__button substract">-</button>
-                <button class="container__button multiply">*</button>
-                <button class="container__button divide">/</button>
-                <button class="container__button equals">=</button>
-                <button class="container__button clear">C</button>
+                <button class="container__button" value="add">+</button>
+                <button class="container__button" value="minus">-</button>
+                <button class="container__button" value="multiply">X</button>
+                <button class="container__button" value="divide">/</button>
+            </div>
+            <div class="container__numButtons">
+                <button class="container__button num" value="0">0</button>
+                <button class="container__button num" value="1">1</button>
+                <button class="container__button num" value="2">2</button>
+                <button class="container__button num" value="3">3</button>
+                <button class="container__button num" value="4">4</button>
+                <button class="container__button num" value="5">5</button>
+                <button class="container__button num" value="6">6</button>
+                <button class="container__button num" value="7">7</button>
+                <button class="container__button num" value="8">8</button>
+                <button class="container__button num" value="9">9</button> 
+            </div>
+            <div class="container__functionButtons">
+                <button class="container__button" value="equal">=</button>
+                <button class="container__button" value="clear">C</button>
             </div>
      
     </div>
