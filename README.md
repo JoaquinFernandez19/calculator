@@ -8,30 +8,26 @@ Used vanilla Javascript, html and css
 ### History
 
 This is not the first attempt or the first one, my previous calculator had a millon bugs, the code was unredeable
-and i was lost in my own words, because of that i decided to start focusing on made my code clean, as well to think in a more practical
-way to do this calculator, so i watch a lot of videos, and there was a video that got my attention, it was totally clean
-and written in a way i'd understanded everything, so i start my calculator with that version of a calculator in my head.
+and i was lost in my own words, because of that i decided to start focusing on making my code cleaner, as well to think in a more practical way to do this calculator, so i watch a lot of videos, and there was a video that got my attention, it was totally clean
+and writted in a way i'd understanded everything, so i start my calculator with that version/video in my head.
 
 
 It bassically treats the calculator as an object with different methods, this methods are the calculator functions, and each function
-correleates to each other function, some methods are purely to do simple things, like add a number, other are more complex, for example,
+correleates to each other, some methods are purely to do simple things, like add a number, other are more complex, for example,
 compute the result.
 
-Basically i learn to treat objects in Javascript as real objects, but not forgetting about the most simplest functionalities and also remember
-to create the 'memory' of the object, and if the object has a 'display' or something like that, update everytime needed.
+Basically i learn to treat objects in Javascript as real objects, but not forgetting about the most simple functionalities and also had to remember to create the 'memory' of the object, and if the object has a 'display' or something like that, update everytime it is needed.
 
 ### Summary
 
-The order of the project (script) was the next one: 
--first select all elements from the HTML file that i was going to use
--create the class Object and pre-think the methods, and also create the contstructor
--start from the basics methods step by step, like displaying a number, store it somewhere, and if the person put more numbers, concatenete them.
--create eventListener from every input that the user can do
--this eventListeners will, simply, call the methods from the calculator, and if needed, give them a value to use (numbers example, when clicked, it runs a method with the argument being
-the text of the button(current number)).
+The creation of the program (script) was the next one: 
+-First select all elements from the HTML file that i was going to use.
+-Create the class Object and pre-think the future methods, and also add the contstructor.
+-Start from the basics methods step by step, like displaying a number, store it somewhere, and if the person put more numbers, concatenete them.
+-Create eventListener for every input that the user can do.
+-This eventListeners will, simply, call the methods from the calculator, and if needed, give them a value to use (numbers for example, when clicked, it runs a method with the argument being the text of the button(current number)).
 
--and then, create the logic and connections between methods, being this a lot easiers because we have a skeleton to work, a skeleton to start using my braind
-, in the past i started doing logic and make eventListener do all the job, putting fucntions inside them...It could work, but it was nasty and messy.
+-And then, create the logic and connections between methods, being this a lot easier because we have a skeleton to work, a skeleton to start using my brain, in the past i started my old calculator in a way that eventListener did all the job, putting fucntions inside them...It could work, but it was nasty and messy.
 
 
 ### Credits
