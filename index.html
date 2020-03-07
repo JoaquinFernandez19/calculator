@@ -4,42 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
-    <link rel="stylesheet" href="style.css">
-    
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"defer></script>
 </head>
 <body>
-    <div class="container">
-        <div class="container__displayScreen">
-            <p class="container__displayInput text"></p>
+    <div class="calculator-grid">
+        <div class="output">
+            <div data-previous-operand class="previous-operand"></div>
+            <div data-current-operand class="current-operand"></div>
         </div>
-        <div class="container__allButtons">
-           
-            <div class="container__symbolButtons">
-                <button class="container__button" value="add">+</button>
-                <button class="container__button" value="minus">-</button>
-                <button class="container__button" value="multiply">X</button>
-                <button class="container__button" value="divide">/</button>
-            </div>
-            <div class="container__numButtons">
-                <button class="container__button num" value="0">0</button>
-                <button class="container__button num" value="1">1</button>
-                <button class="container__button num" value="2">2</button>
-                <button class="container__button num" value="3">3</button>
-                <button class="container__button num" value="4">4</button>
-                <button class="container__button num" value="5">5</button>
-                <button class="container__button num" value="6">6</button>
-                <button class="container__button num" value="7">7</button>
-                <button class="container__button num" value="8">8</button>
-                <button class="container__button num" value="9">9</button> 
-            </div>
-            <div class="container__functionButtons">
-                <button class="container__button" value="equal">=</button>
-                <button class="container__button" value="clear">C</button>
-            </div>
-     
+        <button data-all-clear class="span-two">AC</button>
+        <button data-delete>DEL</button>
+        <button data-operation>÷</button>
+        <button data-number>1</button>
+        <button data-number>2</button>
+        <button data-number>3</button>
+        <button data-operation>*</button>
+        <button data-number>4</button>
+        <button data-number>5</button>
+        <button data-number>6</button>
+        <button data-operation>+</button>
+        <button data-number>7</button>
+        <button data-number>8</button>
+        <button data-number>9</button>
+        <button data-operation>-</button>
+        <button data-number>.</button>
+        <button data-number>0</button>
+        <button data-equals class="span-two">=</button>
     </div>
-
-
-    <script src="app.js"></script>
 </body>
 </html>
